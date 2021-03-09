@@ -1,0 +1,61 @@
+#Headline{
+    position: absolute;
+    top: 0px;
+    padding-bottom: 5px;
+    width: 1855px;
+    background-color: #42587E;
+    float: left;
+    padding-left: 50px;
+    z-index: 0;
+}
+#Headline ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+#Headline li{
+    float: left;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+a:hover{
+    background-color: white;
+}
+
+#Headline2{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    right: 950px;
+}
+
+#Headline2 ul{
+    list-style: none;
+
+}
+
+#Headline2 li{
+    float: left;
+}
+
+#headerlogo img{
+    position: absolute;
+    top: 3px;
+    right: 884px;
+    width: 3%;
+    height: auto;
+    z-index: 2;
+}
+
+#logo img{
+    position: absolute;
+    top: 55px;
+    left: 450px;
+    width: 5%;
+    height: auto;
+}
+
