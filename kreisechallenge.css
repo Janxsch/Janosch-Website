@@ -1,0 +1,28 @@
+.kreise {
+    float: left;
+    margin-right: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+#kreis-rot{
+    position: absolute;
+    background-color: red;
+    top: 50px;
+    right: 960px;
+}
+
+#kreis-blau{
+    position: absolute;
+    background-color: blue;
+    top: 50px;
+    right: 50px;
+}
+
+#kreis-gelb{
+    position: absolute;
+    background-color: yellow;
+    top: 50px;
+    left: 50px;
+}    

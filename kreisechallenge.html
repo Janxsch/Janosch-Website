@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = stylesheet href=kreisechallenge.css >
+    <title>Verschwindende Kreise</title>
+
+</head>
+<body>
+
+    <div class="kreise">  
+
+        <div class="kreise" id="kreis-rot">
+            
+        </div>
+
+        <div class="kreise" id="kreis-blau">
+
+        </div>
+
+        <div class="kreise" id="kreis-gelb">
+
+        </div>
+
+    </div>
+ 
+    <script type="text/javascript">
+    
+        document.getElementById("kreis-rot").onclick = function() {
+            document.getElementById("kreis-rot").style.display = "none";
+        }
+
+        document.getElementById("kreis-gelb").onclick = function() {
+            document.getElementById("kreis-gelb").style.display = "none";
+        }
+
+        document.getElementById("kreis-blau").onclick = function() {
+            document.getElementById("kreis-blau").style.display = "none";
+        }
+    
+    </script>
+    
+
+
+</body>
+</html>
